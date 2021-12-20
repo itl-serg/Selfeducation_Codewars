@@ -478,9 +478,34 @@
 
 // Первый век охватывает период с 1 года по 100 год включительно, второй век - с 101 года по 200 год включительно и т. Д.
 // Задача: Учитывая год, верните век, в котором он находится.
-function century(year) {
-    // Finish this :)
-    return;
-}
 
-century(1601);
+// function century(year) {
+//     let result;
+//     if (year % 100 > 0) {
+//         result = year / 100 + 1;
+//     } else {
+//         result = year / 100;
+//     }
+//     result = Math.trunc(result);
+//     console.log(result);
+// }
+
+// century(89);
+
+// Задача 26 (7kyu)
+// Даны два целых числа a и b, которые могут быть положительными или отрицательными, найти сумму всех целых чисел между ними и включая их и вернуть ее. Если два числа равны, верните a или b.
+
+// function getSum(a, b) {
+//     if (a == b) {
+//         console.log(a);
+//     }
+//     if (a < b) {
+//         console.log(a + getSum(a + 1, b));
+//     }
+//     if (a > b) {
+//         console.log(a + getSum(a - 1, b));
+//     }
+// }
+// getSum(-4, 2);
+
+// Задача 27 (7kyu)
